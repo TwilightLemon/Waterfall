@@ -1,0 +1,23 @@
+﻿<Border x:Class="Waterfall.ImageBox"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Waterfall" Width="100" Height="100">
+    <Border.Background>
+        <VisualBrush>
+            <VisualBrush.Visual>
+                <Canvas HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Margin="162.341,198.244,-162.341,-198.244" ClipToBounds="True">
+                    <Border x:Name="bg" BorderBrush="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100" Height="100" Canvas.Left="-105" Canvas.Top="-105">
+                        <Border.Effect>
+                            <DropShadowEffect BlurRadius="0" ShadowDepth="150" Color="White"/>
+                        </Border.Effect>
+                        <Border.Background>
+                            <ImageBrush ImageSource="Images/100.png"/>
+                        </Border.Background>
+                    </Border>
+                </Canvas>
+            </VisualBrush.Visual>
+        </VisualBrush>
+    </Border.Background>
+</Border>
